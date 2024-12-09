@@ -21,7 +21,7 @@ class LoginOtp extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              const Text("کد را وارد کنید"),
+              const Text("کد خود را وارد کنید"),
               Container(
                   padding: const EdgeInsets.all(8),
                   child: OtpCode(formKey: formKey)),
